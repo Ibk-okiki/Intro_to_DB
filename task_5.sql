@@ -1,5 +1,3 @@
--- task_5.sql
--- Script to insert a single row into the Customers table in alx_book_store database
-
-INSERT INTO Customers (customer_id, customer_name, email, address)
+INSERT INTO CUSTOMERS (CUSTOMER_ID, CUSTOMER_NAME, EMAIL, ADDRESS)
 VALUES (1, 'Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness Ave.');
+
