@@ -34,7 +34,7 @@ def create_database():
         print(f"Error connecting to MySQL: {e}")
         
     finally:
-        # Close cursor and connection
+        # Close cursor and connection properly
         if cursor:
             cursor.close()
         if connection and connection.is_connected():
